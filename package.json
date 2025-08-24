@@ -1,0 +1,34 @@
+{
+  "name": "com.supertactic.splashscreen",
+  "displayName": "Supertactic Splash Screen",
+  "version": "1.0.0",
+  "description": "A complete Unity package for creating and displaying custom splash screens. Easily configure logos, backgrounds, animations, and transitions to give your project a unique and professional introduction.",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "author": {
+    "name": "Supertactic Studio",
+    "email": "contato@supertacticstudio.com",
+    "url": "https://supertacticstudio.com"
+  },
+  "keywords": [
+    "splash",
+    "screen",
+    "2d",
+    "movie",
+    "ui"
+  ],
+  "samples": [
+    {
+      "displayName": "Splash Screen Movie",
+      "description": "A sample scene demonstrating how the Splash Screen Movie works.",
+      "path": "Samples~/SplashScreenMovie"
+    },
+    {
+      "displayName": "Splash Screen UGUI",
+      "description": "A sample scene demonstrating how the Splash Screen UI works.",
+      "path": "Samples~/SplashScreenUGUI"
+    }
+  ]
+}
