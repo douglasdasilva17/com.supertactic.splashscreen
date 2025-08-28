@@ -1,13 +1,13 @@
 # Splash Screen
 This asset allows you to create custom and dynamic splash screens for your Unity project.
 
-## ✨ Features
+## Features
 
 - **Simple Splash Screen:** Just add your game's logo image.
 - **Animated Splash Screen:** Add a sequence of images to create an animation.
 - **Multiple Splash Screens:** Create different splash screens for various parts of your game.
 
-## 📦 Installation
+## Installation
 This package has a mandatory dependency: com.unity.ugui. To ensure correct functionality, please make sure it's installed in your project via the Unity Package Manager.
 
 ### Installing the UI Package
@@ -20,13 +20,17 @@ This package has a mandatory dependency: com.unity.ugui. To ensure correct funct
 
 ### Installing the Splash Screen Package
 
-1.  Go to **Window > Package Manager**.
+1. Make sure you are using **Unity 2022.3 or later**.
 
-2.  Click the **+** button → **Add package from git URL...**.
+2. Open your project's `manifest.json` file and add the following line inside the `dependencies` section:
 
-3.  Paste the repo URL: https://github.com/douglasdasilva17/com.supertactic.splashscreen.git
+```json
+"com.supertactic.splashscreen": "1.0.1"
+```
 
-## 🚀 How to Use
+---
+
+## How to Use
 
 1.  **Import the Samples** from the Package Manager.
 
