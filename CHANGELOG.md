@@ -1,3 +1,7 @@
 ## [1.0.0] - 2025-08-24
-### First Release
+### Added
 - Initial version
+
+## [1.0.1] - 2025-08-27
+### Added
+- Introduced an `Editor` folder and moved all editor scripts into it.
