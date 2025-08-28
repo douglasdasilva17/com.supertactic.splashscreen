@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine.UI;
 using UnityEditorInternal;
 
-namespace Supertactic.SplashScreen.Editor
+namespace Supertactic.SplashScreen.Editor.Core
 {
     [CustomEditor(typeof(USplashScreen))]
     public class SplashScreenEditor : Editor

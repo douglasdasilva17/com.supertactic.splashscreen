@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEditorInternal;
 using UnityEngine.Video;
 
-namespace Supertactic.SplashScreen.Editor
+namespace Supertactic.SplashScreen.Editor.Core
 {
     [CustomEditor(typeof(USplash))]
     public class SplashEditor : Editor
