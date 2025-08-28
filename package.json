@@ -1,7 +1,7 @@
 {
   "name": "com.supertactic.splashscreen",
   "displayName": "Supertactic Splash Screen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A complete Unity package for creating and displaying custom splash screens. Easily configure logos, backgrounds, animations, and transitions to give your project a unique and professional introduction.",
   "unity": "2022.3",
   "dependencies": {
