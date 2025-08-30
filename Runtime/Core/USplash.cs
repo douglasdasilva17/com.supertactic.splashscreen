@@ -30,7 +30,7 @@ namespace Supertactic.SplashScreen
         public AudioClip[] SoundAnimation;
         private List<AudioSource> CacheSources = new List<AudioSource>();
         private VideoPlayer m_VideoPlayer;
-        private bool _mute = false;
+        private bool mute = false;
 
         /// <summary>
         /// 
@@ -63,7 +63,7 @@ namespace Supertactic.SplashScreen
 
         public void Mute(bool value)
         {
-            _mute = value;
+            mute = value;
         }
 
         /// <summary>
@@ -94,6 +94,14 @@ namespace Supertactic.SplashScreen
             {
                 m_VideoPlayer = GetComponent<VideoPlayer>();
                 m_VideoPlayer.Play();
+            }
+            else if (m_Type == SplashType.Static)
+            {
+                if (ShowSound)
+                {
+                    AudioSource s = PlayAudioClip(ShowSound, m_volume, m_pitch, ShowSoundDelay);
+                    CacheSources.Add(s);
+                }
             }
         }
 
@@ -163,7 +171,7 @@ namespace Supertactic.SplashScreen
             source.clip = clip;
             source.volume = volume;
             source.pitch = pitch;
-            source.mute = _mute;
+            source.mute = mute;
             if (delay > 0.0f)
             {
                 source.PlayDelayed(delay);
